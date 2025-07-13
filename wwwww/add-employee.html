@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Add Employee</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="form-box">
+      <h2>Add New Employee</h2>
+      <input type="text" placeholder="Full Name" id="empName">
+      <input type="email" placeholder="Email Address" id="empEmail">
+      <select id="empRole">
+        <option>Select Role</option>
+        <option>Web Designer</option>
+        <option>Software Developer</option>
+      </select>
+      <select id="empDept">
+        <option>Select Department</option>
+        <option>Engineering</option>
+        <option>HR</option>
+      </select>
+      <button onclick="addEmployee()">Add Employee</button>
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>

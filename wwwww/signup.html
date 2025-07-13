@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up | Workflow</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="form-box">
+      <h2>Sign Up</h2>
+      <input type="email" placeholder="Email" id="signupEmail">
+      <input type="password" placeholder="Password" id="signupPassword">
+      <input type="password" placeholder="Confirm Password" id="confirmPassword">
+      <div class="roles">
+        <label><input type="radio" name="role" value="Admin"> Admin</label>
+        <label><input type="radio" name="role" value="Intern"> Intern</label>
+        <label><input type="radio" name="role" value="User"> User</label>
+      </div>
+      <label><input type="checkbox" id="terms"> Accept terms & conditions</label>
+      <button onclick="signup()">Sign Up</button>
+      <p>Already have an account? <a href="index.html">Login</a></p>
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>

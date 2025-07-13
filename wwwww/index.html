@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login | Workflow</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="form-box">
+      <h2>Login</h2>
+      <input type="email" placeholder="Email" id="loginEmail">
+      <input type="password" placeholder="Password" id="loginPassword">
+      <div class="roles">
+        <label><input type="radio" name="role" value="Admin"> Admin</label>
+        <label><input type="radio" name="role" value="Intern"> Intern</label>
+        <label><input type="radio" name="role" value="User"> User</label>
+      </div>
+      <label><input type="checkbox" id="rememberMe"> Remember me</label>
+      <button onclick="login()">Login</button>
+      <p><a href="#">Forgot password?</a></p>
+      <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
